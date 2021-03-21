@@ -100,5 +100,9 @@ After extracting frames from video and doing inference.
 
 This is a sample result after training for 60 epochs.
 
-![inference](https://github.com/namanphy/Quick-Object-Detection---YoloV3/blob/main/YoloV3/inference.jpg)
+<img src="https://github.com/namanphy/Quick-Object-Detection---YoloV3/blob/main/YoloV3/inference.jpg" width="250">
+
+
+#### Reference
+Check out the repo on top which this is based - [here](https://github.com/theschoolofai/YoloV3)
  
