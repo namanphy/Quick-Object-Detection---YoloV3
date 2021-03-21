@@ -71,7 +71,7 @@ Follow below steps for a video :
     `! ffmpeg -i video.mp4 -f mp3 -ab 192000 -vn audio.mp3`
 
 
-### Training
+## Training
 
 1. Download the weight file `yolov3-spp-ultralytics.pt` of pre-trained YoloV3 from [here](https://drive.google.com/open?id=1LezFG5g3BCW6iYaV89B2i64cqEUZD7e0) 
 and paste it in the [weights](https://github.com/namanphy/Quick-Object-Detection---YoloV3/blob/main/YoloV3/weights) folder.
@@ -79,13 +79,13 @@ and paste it in the [weights](https://github.com/namanphy/Quick-Object-Detection
 
     `python train.py --data data/<data_filename>.data --batch 16 --cache --cfg cfg/yolov3-spp.cfg --epochs 60`
 
-### Inference
+## Inference
 
 Use this command to for inference on the files present in `data\test` folder.
 
 `python detect.py --conf-thres 0.2 --output output`
 
-#### On video dataset
+### On video dataset
 After extracting frames from video and doing inference.
 
 - Merge the output files into video.
