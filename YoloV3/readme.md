@@ -5,4 +5,4 @@ train your custom YoloV3 on HardhatVestMaskBoots dataset
 or your custom prepared dataset.
 
 Follow the instructions mentioned in part 2 of this 
-[readme](https://github.com/namanphy/EVA5/blob/main/S13/readme.md)
+[readme](https://github.com/namanphy/Quick-Object-Detection---YoloV3/blob/main/readme.md)
